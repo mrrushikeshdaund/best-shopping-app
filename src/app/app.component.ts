@@ -13,6 +13,8 @@ export class AppComponent implements OnInit {
 
   data:any ;
 
+  userTableData:any;
+
   constructor(private dataService:DataService){}
 
   ngOnInit() {

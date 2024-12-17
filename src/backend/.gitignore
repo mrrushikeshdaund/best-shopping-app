@@ -1,0 +1,3 @@
+# Backend files
+.env
+/node_modules

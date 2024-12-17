@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root', // Automatically makes the service injectable
 })
 export class DataService {
-  private userDataUrl = 'https://dummyjson.com/users'; // Replace with your API URL
+  private userDataUrl = 'http://localhost:3000/api/products'; // Replace with your API URL
 
   constructor(private http: HttpClient) {}
 
