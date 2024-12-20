@@ -13,4 +13,8 @@ export class DataService {
   fetchUsersData(): Observable<any> {
     return this.http.get(this.userDataUrl);
   }
+
+  postProduct(data: any): Observable<any> {
+    return this.http.post(this.userDataUrl, data);
+  }
 }
