@@ -1,7 +1,8 @@
-<mat-card>
-  <mat-card-header>
-    <h2>Add Product item</h2>
-  </mat-card-header>
+<mat-card class="popup-section">
+  <div class="header-section">
+    <span class="title-popup">Add Product item</span>
+    <mat-icon class="close-btn" (click)="handleOnClose()">close</mat-icon>
+  </div>
   <mat-card-content>
     <mat-form-field appearance="outline" class="text-field">
       <mat-label>ID</mat-label>

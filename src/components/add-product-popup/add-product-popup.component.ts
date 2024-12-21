@@ -11,6 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { DialogData } from '../../pages/admin-page/admin-page.component';
 import { FormsModule } from '@angular/forms';
 import { DataService } from '../../service/data.service';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-add-product-popup',
@@ -21,6 +22,7 @@ import { DataService } from '../../service/data.service';
     MatInputModule,
     MatFormFieldModule,
     FormsModule,
+    MatIconModule,
   ],
   templateUrl: './add-product-popup.component.html',
   styleUrl: './add-product-popup.component.scss',
